@@ -12,8 +12,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config ./config/webpack.dev.js",
-    "prod": "webpack --config ./config/webpack.prod.js",
+    "build": "webpack --config ./config/webpack.dev.cjs",
+    "prod": "webpack --config ./config/webpack.prod.cjs",
     "serve:firefox": "web-ext run --source-dir ./build/firefox  --target firefox-desktop --start-url https://www.youtube.com/watch?v=Y7dpJ0oseIA",
     "serve:chrome": "web-ext run --source-dir ./build/chrome  --target chromium --start-url https://www.youtube.com/watch?v=Y7dpJ0oseIA",
     "serve:brave:linux": "web-ext run --source-dir ./build/chrome  --target chromium --chromium-binary /usr/bin/brave --start-url https://www.youtube.com/watch?v=Y7dpJ0oseIA",

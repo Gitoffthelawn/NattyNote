@@ -16,6 +16,12 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+      {
         test: /\.svg$/,
         use: [
           {

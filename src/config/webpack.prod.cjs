@@ -5,7 +5,7 @@ const JsonMinimizerPlugin = require(`json-minimizer-webpack-plugin`);
 const TerserPlugin = require(`terser-webpack-plugin`);
 const FileManagerPlugin = require(`filemanager-webpack-plugin`);
 const { merge } = require(`webpack-merge`);
-const baseConfig = require(`./webpack.common.js`);
+const baseConfig = require(`./webpack.common.cjs`);
 
 module.exports = merge(baseConfig, {
   mode: `production`,
