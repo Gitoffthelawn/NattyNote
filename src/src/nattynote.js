@@ -98,7 +98,9 @@ function handelUIRender() {
       deck.render(document.body);
       document.body.style.overflowY = `auto`;
     } else {
-      deck.render(document.querySelector(`#page-manager div#info`));
+      const el = document.querySelector(`ytd-watch-metadata`);
+      console.log(el);
+      deck.render(el);
     }
   }
 
