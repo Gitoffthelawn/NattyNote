@@ -1,7 +1,7 @@
 {
   "name": "NattyNote",
   "description": "Take time-stamped YouTube notes.",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "manifest_version": 3,
   "author": {
     "name": "Ahmad Alq",
@@ -10,7 +10,12 @@
   "icons": {
     "48": "icons/nn.png"
   },
-  "permissions": ["storage", "unlimitedStorage", "clipboardWrite", "*://*.youtube.com/*"],
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "clipboardWrite",
+    "*://*.youtube.com/*"
+  ],
 
   "action": {
     "default_popup": "./interface/cached.html"
