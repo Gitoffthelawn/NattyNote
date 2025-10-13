@@ -1,7 +1,7 @@
-module.exports = {
-	trailingComma: "es5",
-	bracketSpacing:true,
-	tabWidth: 2,
-	semi: true,
-	singleQuote: false,
+export default {
+  trailingComma: "es5",
+  bracketSpacing: true,
+  tabWidth: 2,
+  semi: true,
+  singleQuote: false,
 };
